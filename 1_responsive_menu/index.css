@@ -73,6 +73,7 @@ img {
   width: 65vw;
   display: flex;
   flex-direction: column;
+  transform: translateX(-100%);
 }
 
 .Navigation-list {
