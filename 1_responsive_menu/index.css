@@ -1,0 +1,47 @@
+:root {
+  --blue: #00b5ff;
+  --darkblue: #2f3543;
+  --orange: #f89321;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bada55;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.btn-flat {
+  background-color: transparent;
+}
