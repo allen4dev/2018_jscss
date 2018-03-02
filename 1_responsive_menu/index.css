@@ -2,6 +2,7 @@
   --blue: #00b5ff;
   --darkblue: #2f3543;
   --orange: #f89321;
+  --gray: #bdbfc4;
 }
 
 * {
@@ -38,10 +39,85 @@ img {
 .btn {
   border: none;
   cursor: pointer;
-  font-size: 1.5em;
   padding: 0.5em;
+}
+
+.btn-orange {
+  background-color: var(--orange);
+  color: white;
 }
 
 .btn-flat {
   background-color: transparent;
 }
+
+.Logo {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.Searchbar-input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+/* Navigation */
+.Navigation {
+  background-color: var(--darkblue);
+  height: 100vh;
+  position: fixed;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Navigation-list {
+  flex: 1;
+  padding: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Navigation-item {
+  flex: 1;
+}
+
+.Navigation-item:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
+
+.Navigation-link {
+  color: var(--gray);
+  padding: 0 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Navigation-footer {
+  padding: 0.5em;
+}
+
+.Navigation-buy {
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Navigation-blizzard {
+  margin: 0.5em auto 0;
+  width: 25%;
+}
+/* /Navigation */
