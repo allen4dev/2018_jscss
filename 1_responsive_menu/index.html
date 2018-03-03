@@ -16,10 +16,10 @@
     <header class="Header">
       <!-- Navigation -->
       <div class="Header-navigation">
-        <button class="Header-navigationButton btn btn-flat">🍔</button>
+        <button data-nav="Navigation" class="Header-navigationButton menuButton btn btn-flat">🍔</button>
       </div>
 
-      <nav class="Navigation">
+      <nav class="Navigation menu">
         <header class="Navigation-header">
           <figure class="Logo">
             <img src="assets/logo-big.png" alt="" class="Logo-image">
@@ -70,10 +70,10 @@
 
       <!-- UserMenu -->
       <div class="Header-userMenu">
-        <button class="Header-userMenuButton btn btn-flat">👱</button>
+        <button data-nav="UserMenu" class="Header-userMenuButton menuButton btn btn-flat">👱</button>
       </div>
 
-      <nav class="UserMenu">
+      <nav class="UserMenu menu">
         <header class="UserMenu-header">
           <figure class="UserMenu-logo">
             <img class="UserMenu-logoImage" src="assets/blizzard_logo.png" alt="blizzard" />
@@ -130,6 +130,8 @@
     </header>
     <!-- /Header -->
   </section>
+
+  <script src="index.js"></script>
 </body>
 
 </html>

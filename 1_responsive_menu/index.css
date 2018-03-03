@@ -52,6 +52,10 @@ img {
   background-color: transparent;
 }
 
+.menu.menu--open {
+  transform: translateX(0);
+}
+
 .Header {
   background-color: var(--darkblue);
   height: 4em;
@@ -95,6 +99,12 @@ img {
   font-size: 1em;
   padding: 0.5em 1em;
   width: 100%;
+}
+
+.Navigation,
+.UserMenu {
+  transition: transform 0.3s ease;
+  will-change: transform;
 }
 
 /* Navigation */
