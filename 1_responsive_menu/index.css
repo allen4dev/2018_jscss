@@ -84,6 +84,10 @@ img {
   width: 50%;
 }
 
+.Searchbar {
+  /* min-width: 12em; */
+}
+
 .Searchbar-input {
   background-color: transparent;
   border: none;
@@ -245,14 +249,16 @@ img {
     height: auto;
     padding: 0;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: initial;
   }
 
   .Header-navigation,
   .Header-userMenu,
   .Header-logo,
   .User,
-  .UserMenu-options {
+  .UserMenu-options,
+  .Logo,
+  .Navigation-blizzard {
     display: none;
   }
 
@@ -269,7 +275,7 @@ img {
     flex-direction: row;
     align-items: center;
     max-width: initial;
-    width: auto;
+    width: 100%;
   }
 
   .UserMenu-header {
@@ -288,5 +294,44 @@ img {
 
   .Navigation {
     order: 1;
+    flex-direction: row;
+    width: auto;
+    margin: 1em;
+    max-width: initial;
+  }
+
+  .Navigation-header {
+    order: 2;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .Navigation-list {
+    flex-direction: row;
+    padding: 0;
+    order: 1;
+  }
+
+  .Navigation-item:not(:last-child) {
+    border-bottom: 1px solid gray;
+  }
+
+  .Navigation-link,
+  .Navigation-buy {
+    font-size: 0.8em;
+  }
+
+  .Navigation-link {
+    padding: 0.5em;
+  }
+
+  .Navigation-footer {
+    order: 3;
+  }
+
+  .Searchbar {
+    font-size: 0.8em;
+    flex: 1;
   }
 }
