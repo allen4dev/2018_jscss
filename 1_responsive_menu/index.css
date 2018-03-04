@@ -56,6 +56,13 @@ img {
   transform: translateX(0);
 }
 
+.menuButton-close {
+  color: orange;
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+}
+
 .Header {
   background-color: var(--darkblue);
   height: 4em;
@@ -99,6 +106,14 @@ img {
   font-size: 1em;
   padding: 0.5em 1em;
   width: 100%;
+}
+
+.Navigation-close {
+  left: 5%;
+}
+
+.UserMenu-close {
+  right: 5%;
 }
 
 .Navigation,
@@ -268,7 +283,8 @@ img {
   .User,
   .UserMenu-options,
   .Logo,
-  .Navigation-blizzard {
+  .Navigation-blizzard,
+  .menuButton-close {
     display: none;
   }
 
