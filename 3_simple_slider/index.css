@@ -53,6 +53,8 @@ img {
 .Slider-container {
   width: 2500px;
   display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
 }
 
 .Slider-item {
