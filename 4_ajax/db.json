@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "item1ID",
+      "title": "Title for the item #1",
+      "body": "A text for the first item"
+    },
+    {
+      "id": "item2ID",
+      "title": "Title for the item #2",
+      "body": "A text for the second item"
+    },
+    {
+      "id": "item2ID",
+      "title": "Title for the item #3",
+      "body": "A text for the third item"
+    }
+  ]
+}
