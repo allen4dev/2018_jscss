@@ -1,19 +1,24 @@
 {
-  "items": [
+  "posts": [
     {
-      "id": "item1ID",
-      "title": "Title for the item #1",
-      "body": "A text for the first item"
+      "title": "item 1",
+      "body": "This is the item 1",
+      "id": 1
     },
     {
-      "id": "item2ID",
-      "title": "Title for the item #2",
-      "body": "A text for the second item"
+      "title": "qwqwe",
+      "body": "wewe",
+      "id": 2
     },
     {
-      "id": "item2ID",
-      "title": "Title for the item #3",
-      "body": "A text for the third item"
+      "title": "hello",
+      "body": "world\n",
+      "id": 3
+    },
+    {
+      "title": "another item title",
+      "body": "some text",
+      "id": 4
     }
   ]
 }

@@ -13,16 +13,21 @@
   <main role="application" class="App">
     <h1 class="title">Ajax request</h1>
 
-    <button id="button-fetch">Fetch items</button>
-    <section class="Articles">
+    <form id="form" class="Form">
+      <input id="form-title" type="text" name="title" placeholder="Set the title for the article" />
+      <textarea id="form-body" name="body" placeholder="Set the body for the article"></textarea>
+
+      <input id="form-submit" type="submit" value="Submit" />
+    </form>
+
+    <section class="Posts">
 
     </section>
   </main>
 
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="posts.js"></script>
   <script src="index.js"></script>
-  <script>
-    Ajax.init()
-  </script>
 </body>
 
 </html>
